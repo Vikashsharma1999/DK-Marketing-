@@ -2,66 +2,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DK Marketing - Digital Marketing Course</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
-        header { background-color: #2a2f45; color: white; padding: 20px 40px; text-align: center; }
-        section { padding: 40px; text-align: center; }
-        .features { display: flex; justify-content: space-around; flex-wrap: wrap; }
-        .feature { width: 250px; margin: 20px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        .feature img { width: 80px; margin-bottom: 10px; }
-        .contact-form input { display: block; width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
-        .contact-form button { padding: 10px 20px; background-color: #2a2f45; color: white; border: none; border-radius: 5px; }
-        footer { text-align: center; padding: 20px; background-color: #222; color: white; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DK Marketing - Digital Marketing Course</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+    header { background: #002244; color: white; padding: 20px; text-align: center; }
+    .banner img { width: 100%; height: auto; border-radius: 10px; }
+    .section { padding: 20px; background: white; margin: 20px; border-radius: 8px; }
+    footer { background: #002244; color: white; text-align: center; padding: 10px; }
+    form input, form select, form button { width: 100%; padding: 8px; margin: 5px 0; }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>DK Marketing</h1>
-        <p>Join our 3-month Digital Marketing Course – Start Date: Day/Month/Year</p>
-    </header>
-    <section>
-        <img src="banner.jpg" alt="Digital Marketing Banner" style="max-width: 100%; border-radius: 10px;" />
-    </section>
-    <section>
-        <h2>What You'll Learn</h2>
-        <div class="features">
-            <div class="feature">
-                <img src="seo.png" alt="SEO">
-                <h3>SEO</h3>
-                <p>Master search engine optimization strategies.</p>
-            </div>
-            <div class="feature">
-                <img src="sem.png" alt="SEM">
-                <h3>SEM</h3>
-                <p>Learn paid marketing with Google Ads.</p>
-            </div>
-            <div class="feature">
-                <img src="smm.png" alt="SMM">
-                <h3>SMM</h3>
-                <p>Promote brands via social media channels.</p>
-            </div>
-            <div class="feature">
-                <img src="email.png" alt="Email Marketing">
-                <h3>Email Marketing</h3>
-                <p>Automate and convert with email campaigns.</p>
-            </div>
-        </div>
-    </section>
-    <section>
-        <h2>Join Now</h2>
-        <form class="contact-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="tel" placeholder="Contact Number" required>
-            <input type="number" placeholder="Age" required>
-            <input type="text" placeholder="Current Qualification" required>
-            <button type="submit">Submit</button>
-        </form>
-    </section>
-    <footer>
-        <p>&copy; 2025 DK Marketing. All rights reserved.</p>
-    </footer>
+  <header>
+    <h1>DK Marketing</h1>
+    <p>Digital Marketing Online Course</p>
+  </header>
+
+  <div class="banner">
+    <img src="marketing-banner.png" alt="Digital Marketing Insights">
+  </div>
+
+  <div class="section">
+    <h2>Course Details</h2>
+    <p><strong>Course Name:</strong> Digital Marketing</p>
+    <p><strong>Duration:</strong> 3 Months</p>
+    <p><strong>Start Date:</strong> Day/Month/Year</p>
+    <p><strong>Topics Covered:</strong> SEO, SEM, SMM, Email Marketing</p>
+  </div>
+
+  <div class="section">
+    <h2>Contact / Sign Up</h2>
+    <form>
+      <label>Name:</label>
+      <input type="text" name="name" required />
+      <label>Contact Number:</label>
+      <input type="tel" name="contact" required />
+      <label>Age:</label>
+      <input type="number" name="age" />
+      <label>Current Qualification:</label>
+      <input type="text" name="qualification" />
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 DK Marketing. All rights reserved.</p>
+  </footer>
 </body>
 </html>
